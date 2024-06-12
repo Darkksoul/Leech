@@ -2,8 +2,9 @@ from secrets import token_hex
 from asyncio import sleep
 from telegraph.aio import Telegraph
 from telegraph.exceptions import RetryAfterError
+from logging import getLogger, ERROR
 
-from bot import LOGGER, bot_loop, config_dict
+from bot import LOGGER, bot_loop
 
 
 class TelegraphHelper:
