@@ -1,6 +1,5 @@
 from os import path, environ
 from subprocess import run
-from requests import get
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from logging import FileHandler, StreamHandler, INFO, basicConfig, error, info, Formatter, ERROR, getLogger
