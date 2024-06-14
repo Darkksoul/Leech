@@ -1,3 +1,4 @@
+import requests
 from os import path, environ
 from subprocess import run
 from dotenv import load_dotenv
