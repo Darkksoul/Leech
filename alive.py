@@ -1,7 +1,6 @@
 import os
 import time
 import logging
-import requests
 
 BASE_URL = os.environ.get('BASE_URL', None)
 try:
