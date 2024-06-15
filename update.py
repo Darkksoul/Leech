@@ -1,3 +1,4 @@
+import requests
 from requests import get as rget  # Import 'requests' library
 from os import path, environ
 from subprocess import run
