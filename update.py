@@ -1,3 +1,4 @@
+import requests
 from logging import FileHandler, StreamHandler, INFO, basicConfig, error as log_error, info as log_info
 from os import path as ospath, environ, execl as osexecl
 from subprocess import run as srun
